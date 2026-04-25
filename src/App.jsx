@@ -11,7 +11,7 @@ export default function BudinesApp() {
   const [clientes, setClientes] = useState([]);
   const [ventas, setVentas] = useState([]);
   const [templates, setTemplates] = useState([]);
-  const [config, setConfig] = useState({ nombreNegocio: 'Dulce Hogar' });
+  const [config, setConfig] = useState({ nombreNegocio: 'Italo Bakery' });
 
   // Cargar datos al iniciar
   useEffect(() => {
